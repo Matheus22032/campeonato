@@ -27,4 +27,8 @@ public class Time {
 		Random random = new Random();
 		this.score = random.nextInt(10);
 	}
+	
+	public String getName() {
+		return name;
+	}
 }
